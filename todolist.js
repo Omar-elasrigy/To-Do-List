@@ -4,7 +4,7 @@ let input=document.querySelector("input[type='text']")
 let button=document.getElementsByTagName("button")[0]
 let deleteButton=document.getElementById("image2")
 let id=0
-
+document.addEventListener("DOMContentLoaded", function() {
 id = Object.keys(localStorage).length + 1;
 button.addEventListener("click",function(e){
     // localStorage.clear()
@@ -21,7 +21,7 @@ button.addEventListener("click",function(e){
         let item=JSON.parse(localStorage.getItem(id))
         let html=`
         <div class="container2 each" data-id="${id}">
-            <div id="c1" class="itemValue">${item}</div>
+            <div id="c1" class="itemValue text-capitalize">${item}</div>
             <div id="c2"><img id="image1" src="images/edit.png" class="edit"></div>
             <div id="c3"><img id="image2" class="delete" src="images/delete.png"></div>
         </div>
@@ -62,5 +62,5 @@ container.addEventListener("click",function(e){
            row.classList.add("nowEditing")
         }
 })
-
+})
 

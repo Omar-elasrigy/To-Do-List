@@ -6,6 +6,7 @@ body{
     margin: 0;
     margin-top: 200px;
     margin-bottom: 30px;
+    padding: 17px;
 }
 #container{
     display: flex;
@@ -26,6 +27,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: 0;
+    text-overflow: re;
    
    
 }
@@ -45,7 +47,7 @@ body{
     background-color: rgb(255, 255, 255);
     width:33.333%;
     height: 100%;
-    line-height: 85px;
+    line-height: 70px;
     font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
     font-weight: bold;
@@ -58,7 +60,7 @@ body{
     background-color: rgb(255, 255, 255);
     width:33.333%;
     height: 100%;
-    line-height: 110px;
+    line-height: 70px;
     border:3px solid black;
 }
 a{
@@ -83,7 +85,7 @@ a{
 }
 button{
     
-    height:37px;
+    height:40px;
     width:60px;
     background-color: rgb(174, 13, 13);
 }
