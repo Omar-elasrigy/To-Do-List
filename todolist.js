@@ -23,7 +23,7 @@ button.addEventListener("click",function(e){
         <div class="container2 each" data-id="${id}">
             <div id="c1" class="itemValue">${item}</div>
             <div id="c2"><img id="image1" src="images/edit.png" class="edit"></div>
-            <div id="c3"><img id="image2" class="delete" src="images/delete.png"></div>
+            <div id="c3"><img id="image2" class="delete" src="images/Delete.png"></div>
         </div>
       `
        container.insertAdjacentHTML("beforeend",html)
